@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdaPTIve background</title>
+  <style>
+      body{   
+    /* background-color: black; */
+    background-image: url(medium.jpg);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: arial;
+}
+h1{
+   background-color: #0007; 
+   padding-left: 1em;
+}
+
+@media screen and (max-width:900px;)
+
+{
+body{background-color:#333;}
+}
+
+
+@media screen and (max-width:1240px;)
+{
+body{
+   font-size:30px;}
+}
+
+@media screen and (max-width:720;) {
+body{
+    font-size:22px;
+   background-image: url(small.jpg);
+   background-size: auto 120vh;
+   background-repeat: no-repeat;
+   background-position: top center;
+}
+}
+
+  </style>
+
+</head>
+<body>
+    <h1>CSS ADAPTIVE STYLE</h1>
+</body>
+</html>
